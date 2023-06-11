@@ -9,6 +9,23 @@
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686311002/techworks/DSC02513_qrv1mg.jpg"
     },
     {
+        "clientName": "Red Bull",
+        "projectName": "Doodle Art 2023",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/redbullcom-logo_2_fa18yq.png",
+        "projectDescription": "Red Bull Doodle Art is where art and technology meet with new opportunities for creative doodlers to let their minds wander through imaginative doodles.",
+        "projectLink": "https://www.youtube.com/embed/yZ-rg7B2brw",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686310493/techworks/Screenshot_from_2023-06-09_14-34-35_wxlq1e.png"
+    },
+    {
+        "clientName": "Procol Africa",
+        "projectName": "Procol Africa Graduand Documentary",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/PROCOL__Africa_Large_White_hhblxh.png",
+        "projectLink": "https://www.youtube.com/embed/Nh7Tiu8StX4",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686502005/Emacon%20Production/mq3_z8hkxs.webp"
+    },
+    {
         "clientName": "Mirco Foods",
         "projectName": "Mirco Foods Web Design & Development",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686497254/Emacon%20Production/transparent_logo_p6ypgu.png",
@@ -18,11 +35,102 @@
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686309505/techworks/Screenshot_from_2023-06-09_14-15-42_kpacoh.png"
     },
     {
-        "clientName": "Procol Africa",
-        "projectName": "Procol Africa Graduand Documentary",
-        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/PROCOL__Africa_Large_White_hhblxh.png",
-        "projectLink": "https://www.youtube.com/embed/Nh7Tiu8StX4",
+        "clientName": "Red Bull",
+        "projectName": "Red Bull Show Reel 2023",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/redbullcom-logo_2_fa18yq.png",
+        "projectDescription": "This is a showreel of activities done by Red Bull Kenya in the year 2022",
+        "projectLink": "https://www.youtube.com/embed/Y8oTdno8XLM",
         "projectType": "Video Production",
-        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686309505/techworks/Screenshot_from_2023-06-09_14-15-42_kpacoh.png"
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686502272/Emacon%20Production/mq3_1_j0osjv.webp"
+    },
+    {
+        "clientName": "Leopard Point Malindi",
+        "projectName": "Full Moon White Party Promo Video",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686511486/Emacon%20Production/LogoDefinitivoLeopardwhite_lhjsuk.png",
+        "projectDescription": "Full Moon White Party Promo Video",
+        "projectLink": "https://www.youtube.com/embed/jTJJrc6DAfc",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686511654/Emacon%20Production/mq3_4_ch8iqw.webp"
+    },
+    {
+        "clientName": "Manzili House",
+        "projectName": "Manzili House Social Media Promo Video",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496660/Emacon%20Production/Manzili-kenya-1_f7vjat.png",
+        "projectDescription": "A short promo for the beautiful Manzili House located at the heart of Karen, in all its glory",
+        "projectLink": "https://www.youtube.com/embed/W5LLyhMtExI",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686502580/Emacon%20Production/mq2_mubxfz.webp"
+    },
+    {
+        "clientName": "Mobius",
+        "projectName": "Mobius Kenya Racing Team",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/logo2xwhite_actfae.webp",
+        "projectDescription": "Mobius designs, manufactures and sells vehicles built specifically for the African mass market. Mobius 3 is built to traverse the variable road terrain of Africa, from everyday city driving to off-road adventures.",
+        "projectLink": "https://www.youtube.com/embed/6c26nFkSNTY",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686502817/Emacon%20Production/mq1_wssdjf.webp"
+    },
+    {
+        "clientName": "Ewaka Mobility",
+        "projectName": "eWaka Social Media Promo Video",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496659/Emacon%20Production/logo-large_l9ldn5.png",
+        "projectDescription": "eWAKA is a platform for commuter and commercial micro-mobility fleets. We combine hardware, software and servicing to respond to the increasing urban transportation needs on the continent while addressing the major climate challenges of this critical sector. ",
+        "projectLink": "https://www.youtube.com/embed/oNyo7n8GggU",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686503192/Emacon%20Production/mqdefault_wjiakn.webp"
+    },
+    {
+        "clientName": "Ministry of Tourism",
+        "projectName": "Ministry of Tourism Strategy Launch",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496659/Emacon%20Production/Coat-of-arms-DETAILED-rgb_oy6joz_gbljdg.png",
+        "projectDescription": "Ministry of Tourism Strategy Launch",
+        "projectLink": "https://www.youtube.com/embed/y9BchyWXU28",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686503486/Emacon%20Production/mq3_2_ntuvxl.webp"
+    },
+    {
+        "clientName": "Mövenpick Residences Nairobi",
+        "projectName": "What is Art? | Rich Allela & Sebawali Sio",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496659/Emacon%20Production/HeaderLogo280X96_zulpnb.png",
+        "projectDescription": "What is Art? | Rich Allela & Sebawali Sio",
+        "projectLink": "https://www.youtube.com/embed/hkNR8ElJYRo",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686510151/Emacon%20Production/mq3_3_uxxlxe.webp"
+    },
+    {
+        "clientName": "Ministry of Tourism",
+        "projectName": "Ministry of Tourism | Hon. Najib Balala hike Mt. Longonot",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496659/Emacon%20Production/Coat-of-arms-DETAILED-rgb_oy6joz_gbljdg.png",
+        "projectDescription": "Hon. Najib Balala hike Mt. Longonot",
+        "projectLink": "https://www.youtube.com/embed/8rnKay9AkFM",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686510430/Emacon%20Production/mq1_1_rosnwq.webp"
+    },
+    {
+        "clientName": "The Lioness Rally Club",
+        "projectName": "The Lioness Rally Inaugural Rally 2022",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1647085841/Lioness%20Rally/Lioness_club_logo_guide_yihden.png",
+        "projectDescription": "The Lioness Inaugural Rally held on 27th March 2022 at Kasarani SSS",
+        "projectLink": "https://www.youtube.com/embed/GDZ77SUawu4",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686510827/Emacon%20Production/mq1_2_r5ixtj.webp"
+    },
+    {
+        "clientName": "The Lioness Rally Club",
+        "projectName": "The Lioness Rally Website",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1647249408/Lioness%20Rally/Lioness-club-logo_riyr6v.eps",
+        "projectDescription": "The Lioness Rally Club are making history in Kenya, Africa and the world. They are fully representing women in the world of rallying and motor sports easing entry barriers for women in motor sports. ",
+        "projectLink": "https://eager-chandrasekhar-e349c1.netlify.app/",
+        "projectType": "Web Design & Development",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686309758/techworks/Screenshot_from_2023-06-09_14-22-18_st8dei.png"
+    },
+    {
+        "clientName": "Biz Mkononi",
+        "projectName": "Biz Mkononi Website",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1638545506/Bizmkononi/BIZ_MKONONI_png_couxsj.png",
+        "projectDescription": "Biz Mkononi is an AI-powered insights platform that provides decision making tools, solutions and analytics to the small and medium enterprises in Kenya and the Rest of the Continent.",
+        "projectLink": "https://mkononi.biz/",
+        "projectType": "Web Design & Development",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686511300/Emacon%20Production/Screenshot_from_2023-06-11_22-21-06_vleoqf.png"
     }
 ]

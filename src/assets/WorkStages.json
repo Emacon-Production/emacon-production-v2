@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-shape-circle",
+        "name": "Briefing",
+        "description": "Summary of information or instructions given before a project."
+    },
+    {
+        "icon": "bx bx-bulb",
+        "name": "Idea",
+        "description": "Generated through brainstorming, research, observation."
+    },
+    {
+        "icon": "bx bxs-cog",
+        "name": "Processing",
+        "description": "Set of actions that transform inputs into desired outputs, requiring planning."
+    },
+    {
+        "icon": "bx bxs-flag-alt",
+        "name": "Finishing",
+        "description": "Final stage of a process where the product outcome is completed."
+    }
+]

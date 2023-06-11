@@ -1,0 +1,68 @@
+.link_wrapper {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    text-decoration: none;
+    width: fit-content;
+    cursor: pointer;
+  }
+  
+  .link_wrapper {
+    position: relative;
+    display: flex;
+    font-weight: 400;
+    font-size: 10px;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .link_wrapper p {
+    margin: 0;
+    position: relative;
+    font-size: 14px;
+    color: var(--secondary-color)
+  }
+  
+  .link_wrapper::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--secondary-color-hover);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+  .link_wrapper p::before {
+    position: absolute;
+  /*   box-sizing: border-box; */
+    content: "Learn More";
+    width: 0;
+    inset: 0;
+    color: var(--secondary-color-hover);
+    overflow: hidden;
+    transition: 0.3s ease-out;
+  }
+  
+  .link_wrapper:hover::after {
+    width: 100%;
+  }
+  
+  .link_wrapper:hover p::before {
+    width: fit-content;
+  }
+  
+  .link_wrapper:hover svg {
+    transform: translateX(4px);
+    color: var(--secondary-color-hover)
+  }
+  
+  .link_wrapper svg {
+    color: var(--secondary-color);
+    transition: 0.2s;
+    position: relative;
+    width: 12px;
+    transition-delay: 0.2s;
+  }

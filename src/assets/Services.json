@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Professional Photography & Videography",
+        "description": "We create high-quality content that is targeted to all of your digital demands. We do hear. We comprehend. Then we start to make! A three-step procedure to help you develop the captivating brand identity you deserve!",
+        "targetLink": "photography-and-videography",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686516831/Emacon%20Production/billy-freeman-VPPtAiPqjpE-unsplash_vngkmv.jpg"
+    },
+    {
+        "name": "Content Creation & Digital Marketing",
+        "description": "For our clients, we use the production of highly engaging content and our business knowledge across industries to establish enduring visibility and digital awareness. Web creation, curated social media strategy, and hands-on management of customized digital campaigns are among services we offer. You tell me!",
+        "targetLink": "digital-marketing",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686517316/Emacon%20Production/alexander-shatov-mr4JG4SYOF8-unsplash_djf8w0.jpg"
+    },
+    {
+        "name": "Web Design & Development",
+        "description": "With our expertise in these areas, we bring your artistic vision to life with precision and creativity. Our creative service encompasses photography production & editing, video production & editing, and audio production & editing.",
+        "targetLink": "creative-solutions",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1684689863/techworks/sam-mcghee-KieCLNzKoBo-unsplash_bylrcv.jpg"
+    }
+]
