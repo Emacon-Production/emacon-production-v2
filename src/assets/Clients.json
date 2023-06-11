@@ -1,0 +1,28 @@
+[
+    {
+        "clientName": "Red Bull",
+        "projectName": "Wings For Life World Run 2023",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/redbullcom-logo_2_fa18yq.png",
+        "projectDescription": "The Wings for Life World Run is a global charity event that aims to raise funds for spinal cord injury research. The unique aspect of the race is that there is no set finish line, and runners are pursued by the Catcher Car, which starts 30 minutes after the runners. The Catcher Car then gradually increases its speed, and when it passes a runner, their race is over. The last person running in each country are celebrated as the country winners.",
+        "projectLink": "",
+        "projectType": "Photography",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686311002/techworks/DSC02513_qrv1mg.jpg"
+    },
+    {
+        "clientName": "Mirco Foods",
+        "projectName": "Mirco Foods Web Design & Development",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686497254/Emacon%20Production/transparent_logo_p6ypgu.png",
+        "projectDescription": "Mirco Foods Limited is an innovative Kenyan business dedicated to making positive social impact in the agricultural sector in Africa. Founded in 2022, Mirco is one of the leading buyers, processors, traders and exporters of oil seeds, pulses and nuts in the region.",
+        "projectLink": "https://mircofoods.co.ke/",
+        "projectType": "Web Design & Development",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686309505/techworks/Screenshot_from_2023-06-09_14-15-42_kpacoh.png"
+    },
+    {
+        "clientName": "Procol Africa",
+        "projectName": "Procol Africa Graduand Documentary",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/PROCOL__Africa_Large_White_hhblxh.png",
+        "projectLink": "https://www.youtube.com/embed/Nh7Tiu8StX4",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686309505/techworks/Screenshot_from_2023-06-09_14-15-42_kpacoh.png"
+    }
+]

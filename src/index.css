@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Wix Madefor Display', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+:root {
+  --main-color: #1B4444;
+  --secondary-color: #FDA715;
+  --main-color-hover: #266161;
+  --secondary-color-hover: #ffc155;
+  --text-main-color: #ffff;
+  --text-secondary-color-v1: #1B4444;
+  --text-secondary-color-v2: #FDA715;
+  --heading-one: 60px;
+  --text-one: 17px;
+}
+
+.word_emphasy_v1 {
+  color: var(--text-secondary-color-v2);
+}
+
+.divider_horizontal_v1 {
+  border-left: 8px Solid var(--main-color-hover) !important;
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Home",
+        "target": "/",
+        "type": "link"
+    },
+    {
+        "name": "About Us",
+        "target": "/about",
+        "type": "link"
+    },
+    {
+        "name": "Services",
+        "target": "/services",
+        "type": "link"
+    },
+    {
+        "name": "Work",
+        "target": "/work",
+        "type": "link"
+    },
+    {
+        "name": "Blog",
+        "target": "/blog",
+        "type": "link"
+    },
+    {
+        "name": "Let's Talk",
+        "target": "/contact",
+        "type": "button"
+    }
+]

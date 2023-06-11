@@ -1,0 +1,96 @@
+.home_hero_wrapper {
+    /* display: flex;
+    justify-content: space-between; */
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: auto auto;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 50px 25px;
+    padding: 1rem 8rem;
+    color: var(--text-main-color);
+    background: var(--main-color);
+    height: 400px;
+}
+
+.home_hero_sectionone h1 {
+    font-size: var(--heading-one);
+}
+
+.home_hero_sectiontwo {
+    padding: 4rem 2rem;
+    font-size: var(--text-one);
+}
+
+.home_sctiontwo_showreel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 28rem;
+}
+
+.home_sctiontwo_showreel iframe {
+    width: 860px;
+    height: 480px;
+    border-radius: 15px 15px;
+}
+
+.home_sectiontwo_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22rem;
+    /* background-color: var(--main-color); */
+}
+
+.home_sectiontwo_logos img {
+    width: 12rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    filter: grayscale(100%) invert(50%);
+    /* filter: invert(100%); */
+    /* mix-blend-mode: color; */
+}
+
+@media screen and (max-width: 1080px) {
+    .home_hero_wrapper {
+        grid-template-columns: auto auto auto;
+        padding: 1rem 3rem;
+        color: var(--text-main-color);
+    }
+    .home_hero_sectionone h1 {
+        font-size: 50px;
+    }
+
+    .home_hero_sectiontwo {
+        padding: 1rem 0rem 1rem 1rem;
+    }
+
+    .home_sctiontwo_showreel iframe {
+        width: 660px;
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .home_hero_wrapper {
+        grid-template-columns: auto;
+        gap: 1px 25px;
+        padding: 1rem 2rem;
+        color: var(--text-main-color);
+        height: 600px;
+    }
+    .home_hero_sectiontwo {
+        padding: 0rem 0rem 0rem 0rem;
+        font-size: var(--text-one);
+    }
+    .home_sctiontwo_showreel {
+        top: 45rem;
+    }
+    .home_sctiontwo_showreel iframe {
+        width: 360px;
+        height: 210px;
+    }
+}
