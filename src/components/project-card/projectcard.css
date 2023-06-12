@@ -11,3 +11,16 @@
     object-fit: cover;
     border-radius: 15px;
 }
+
+@media screen and (max-width: 1080px) {
+    .projectCard_wrapper {
+        width: 20em;
+        height: 33em;
+        padding: 0rem 1rem;
+        /* background: var(--secondary-color); */
+    }
+}
+
+@media screen and (max-width: 490px) {
+    
+}

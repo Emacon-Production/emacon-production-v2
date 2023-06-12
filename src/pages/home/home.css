@@ -260,6 +260,9 @@
         grid-template-columns: auto auto;
         gap: 50px 25px;
     }
+    .works_wrapper {
+        padding: 2rem 3rem;
+    }
     
 }
 
@@ -326,5 +329,11 @@
     }
     .how_we_work_sectionTwo {
         grid-template-columns: auto;
+    }
+    .works_Menu p {
+        padding: 0.5rem 0.5rem;
+    }
+    .works_wrapper {
+        padding: 2rem 2rem;
     }
 }
