@@ -163,6 +163,56 @@
 .stage_wrapper p{
     text-align: center;
 }
+.how_we_work_wrapper {
+    padding: 3rem 3rem;
+}
+
+.works_wrapper {
+    padding: 2rem 8rem;
+    color: var(--text-secondary-color-v1);
+}
+
+.works_wrapper h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.works_Menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.works_Menu p {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.works_Menu p:hover {
+    color: var(--text-secondary-color-v2);
+}
+
+.works_Menu .activeWorksMenu {
+    color: var(--text-secondary-color-v2);
+    font-weight: 700;
+    border-bottom: 2px solid var(--text-secondary-color-v2);
+}
+
+.works_data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.works_learnmore {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
 
 @media screen and (max-width: 1080px) {
     .home_hero_wrapper {
@@ -190,6 +240,27 @@
         width: 6rem;
         padding: 1rem 1rem;
     }
+    .about_wrapper {
+        flex-direction: column;
+        padding: 4rem 3rem;
+    }
+    .about_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_wrapper img {
+        height: 25rem;
+        width: 35rem;
+    }
+    .home_services_wrapper {
+        padding: 2rem 3rem;
+    }
+    .home_services_sectionTwo {
+        grid-template-columns: auto auto;
+        gap: 50px 25px;
+    }
+    
 }
 
 @media screen and (max-width: 490px) {
@@ -217,5 +288,43 @@
     .home_sectiontwo_logos img {
         width: 5rem;
         padding: 1rem 1rem;
+    }
+    .about_wrapper {
+        padding: 4rem 2rem;
+    }
+    .about_wrapper img {
+        height: 12rem;
+        width: 18rem;
+    }
+    .about_content {
+        padding: 0rem 0rem;
+    }
+    .home_services_wrapper {
+        padding: 2rem 2rem;
+    }
+    .home_services_sectionOne {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .home_services_sectionOne p {
+        width: 100%;
+    }
+    .home_services_sectionTwo {
+        grid-template-columns: auto;
+        gap: 50px 25px;
+    }
+    .how_we_work_wrapper {
+        padding: 3rem 2rem;
+    }
+    
+    .how_we_work_sectionOne {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .how_we_work_sectionOne p {
+        width: 100%;
+    }
+    .how_we_work_sectionTwo {
+        grid-template-columns: auto;
     }
 }

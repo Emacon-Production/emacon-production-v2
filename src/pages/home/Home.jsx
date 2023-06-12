@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './home.css'
 import Navigation from '../../components/navigation/Navigation'
 import clients from '../../assets/Clients.json'
@@ -6,11 +6,29 @@ import Button from '../../components/button/Button'
 import ServiceCard from '../../components/service-card/ServiceCard'
 import services from '../../assets/Services.json'
 import workstages from '../../assets/WorkStages.json'
+import ProjectCard from '../../components/project-card/ProjectCard'
+
+const worksMenu = [
+    "All",
+    "Photography", 
+    "Video Production",
+    "Digital Marketing",
+    "Web Design & Development"
+]
 
 const Home = () => {
+    const [activeWorksMenuIndex, setActiveWorksMenuIndex] = useState(0);
+    const [worksMenuData, setWorksMenuData] = useState("All");
+
     let companylist = clients.filter((currentObject, index) => {
         return clients.findIndex(client => client.clientName === currentObject.clientName) === index
     });
+
+    const photographyClients = clients.filter(client => client.projectType === "Photography");
+    const videoClients = clients.filter(client => client.projectType === "Video Production");
+    const digitalClients = clients.filter(client => client.projectType === "Digital Marketing");
+    const webClients = clients.filter(client => client.projectType === "Web Design & Development");
+
   return (
     <div className='home_wrapper'>
         <Navigation />
@@ -134,6 +152,123 @@ const Home = () => {
                     ))
                 }
             </div>
+        </div>
+
+        {/* Works */}
+        <div className='works_wrapper'>
+            <h1>Our Latest Projects</h1>
+            <div className='works_Menu'>
+                {
+                    worksMenu.map((menu, index) => (
+                        <p 
+                            key={index} 
+                            className={`${activeWorksMenuIndex === index ? "activeWorksMenu" : ""}`} 
+                            onClick={() => {
+                                setActiveWorksMenuIndex(index)
+                                setWorksMenuData(menu)
+                            }}
+                        >
+                            {menu}
+                        </p>))
+                }
+            </div>
+
+            <div className='works_data'>
+                {
+                    worksMenuData === "All" ? (
+                        <React.Fragment>
+                            {
+                                clients.map((client, index) => (
+                                    <React.Fragment>
+                                        {
+                                            index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                        }
+                                        
+                                    </React.Fragment>))
+                            }
+                            
+                        </React.Fragment>) : <React.Fragment /> &&
+
+                        worksMenuData === "Photography" ? (
+                            <React.Fragment>
+                                {
+                                    photographyClients.map((client, index) => (
+                                        <React.Fragment>
+                                            {
+                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                            }
+                                            
+                                        </React.Fragment>))
+                                }
+                                
+                            </React.Fragment>) : <React.Fragment /> &&
+                        
+                        worksMenuData === "Video Production" ? (
+                            <React.Fragment>
+                                {
+                                    videoClients.map((client, index) => (
+                                        <React.Fragment>
+                                            {
+                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                            }
+                                            
+                                        </React.Fragment>))
+                                }
+                                
+                            </React.Fragment>) : <React.Fragment /> &&
+                        
+                        worksMenuData === "Digital Marketing" ? (
+                            <React.Fragment>
+                                {
+                                    digitalClients.map((client, index) => (
+                                        <React.Fragment>
+                                            {
+                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                            }
+                                            
+                                        </React.Fragment>))
+                                }
+                                
+                            </React.Fragment>) : <React.Fragment /> &&
+
+                        worksMenuData === "Digital Marketing" ? (
+                            <React.Fragment>
+                                {
+                                    digitalClients.map((client, index) => (
+                                        <React.Fragment>
+                                            {
+                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                            }
+                                            
+                                        </React.Fragment>))
+                                }
+                                
+                            </React.Fragment>) : <React.Fragment /> &&
+                        
+                        worksMenuData === "Web Design & Development" ? (
+                            <React.Fragment>
+                                {
+                                    webClients.map((client, index) => (
+                                        <React.Fragment>
+                                            {
+                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                            }
+                                            
+                                        </React.Fragment>))
+                                }
+                                
+                            </React.Fragment>) : <React.Fragment />
+                }
+                
+            </div>
+
+            <div className='works_learnmore' >
+                <Button Placeholder="Learn More" type="route" targetLink="/work" /> 
+            </div>
+
+            {/* Reviews */}
+
+            {/* Blog */}
         </div>
     </div>
   )

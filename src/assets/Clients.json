@@ -3,7 +3,7 @@
         "clientName": "Red Bull",
         "projectName": "Wings For Life World Run 2023",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/redbullcom-logo_2_fa18yq.png",
-        "projectDescription": "The Wings for Life World Run is a global charity event that aims to raise funds for spinal cord injury research. The unique aspect of the race is that there is no set finish line, and runners are pursued by the Catcher Car, which starts 30 minutes after the runners. The Catcher Car then gradually increases its speed, and when it passes a runner, their race is over. The last person running in each country are celebrated as the country winners.",
+        "projectDescription": "The Wings for Life World Run is a global charity event that aims to raise funds for spinal cord injury research.",
         "projectLink": "",
         "projectType": "Photography",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686311002/techworks/DSC02513_qrv1mg.jpg"
@@ -26,10 +26,10 @@
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686502005/Emacon%20Production/mq3_z8hkxs.webp"
     },
     {
-        "clientName": "Mirco Foods",
+        "clientName": "Mirco Foods Limited",
         "projectName": "Mirco Foods Web Design & Development",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686497254/Emacon%20Production/transparent_logo_p6ypgu.png",
-        "projectDescription": "Mirco Foods Limited is an innovative Kenyan business dedicated to making positive social impact in the agricultural sector in Africa. Founded in 2022, Mirco is one of the leading buyers, processors, traders and exporters of oil seeds, pulses and nuts in the region.",
+        "projectDescription": "Mirco Foods Limited is an innovative Kenyan business dedicated to making positive social impact in the agricultural sector in Africa. ",
         "projectLink": "https://mircofoods.co.ke/",
         "projectType": "Web Design & Development",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686309505/techworks/Screenshot_from_2023-06-09_14-15-42_kpacoh.png"
@@ -119,7 +119,7 @@
         "clientName": "The Lioness Rally Club",
         "projectName": "The Lioness Rally Website",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1647249408/Lioness%20Rally/Lioness-club-logo_riyr6v.eps",
-        "projectDescription": "The Lioness Rally Club are making history in Kenya, Africa and the world. They are fully representing women in the world of rallying and motor sports easing entry barriers for women in motor sports. ",
+        "projectDescription": "The Lioness Rally Club are making history in Kenya, Africa and the world by representing women in the world of rallying and motor sports easing entry barriers for women in motor sports. ",
         "projectLink": "https://eager-chandrasekhar-e349c1.netlify.app/",
         "projectType": "Web Design & Development",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1686309758/techworks/Screenshot_from_2023-06-09_14-22-18_st8dei.png"
