@@ -1,0 +1,22 @@
+[
+    {
+        "socialsname":"Instagram",
+        "socialsicon": "bx bxl-instagram",
+        "link": "https://www.instagram.com/emaconproduction/"
+    },
+    {
+        "socialsname":"Facebook",
+        "socialsicon": "bx bxl-facebook-square",
+        "link": "https://www.facebook.com/profile.php?id=100081254175243"
+    },
+    {
+        "socialsname":"Tik tok",
+        "socialsicon": "bx bxl-tiktok",
+        "link": "https://www.tiktok.com/@emaconproduction?_t=8d7hecsH4tC&_r=1"
+    },
+    {
+        "socialsname":"LinkdIN",
+        "socialsicon": "bx bxl-linkedin",
+        "link": "https://www.linkedin.com/company/emacon-production/"
+    }
+]

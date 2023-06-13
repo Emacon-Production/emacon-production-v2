@@ -7,7 +7,14 @@ import ServiceCard from '../../components/service-card/ServiceCard'
 import services from '../../assets/Services.json'
 import workstages from '../../assets/WorkStages.json'
 import ProjectCard from '../../components/project-card/ProjectCard'
+import testimonials from '../../assets/Testimonials.json'
+import TestimonialCard from '../../components/testimonial-card/TestimonialCard'
+import insights from '../../assets/Insights.json'
+import BlogCard from '../../components/blog-card/BlogCard'
+import Footer from '../../components/footer/Footer'
 
+
+// Works menu
 const worksMenu = [
     "All",
     "Photography", 
@@ -17,16 +24,22 @@ const worksMenu = [
 ]
 
 const Home = () => {
+    // This helps navigate the works menu
     const [activeWorksMenuIndex, setActiveWorksMenuIndex] = useState(0);
     const [worksMenuData, setWorksMenuData] = useState("All");
 
+    // This filters out duplicate clients
     let companylist = clients.filter((currentObject, index) => {
         return clients.findIndex(client => client.clientName === currentObject.clientName) === index
     });
 
+    // This filters out only photography clients
     const photographyClients = clients.filter(client => client.projectType === "Photography");
+    // This filters out only video clients
     const videoClients = clients.filter(client => client.projectType === "Video Production");
+    // This filters out only digital marketing clients
     const digitalClients = clients.filter(client => client.projectType === "Digital Marketing");
+    // This filters out only web clients
     const webClients = clients.filter(client => client.projectType === "Web Design & Development");
 
   return (
@@ -127,7 +140,7 @@ const Home = () => {
                 <div>
                     <h3>HERE ARE THE STEPS</h3>
                     <h1>
-                        How do We <span className='word_emphasy'>Work?</span> <br />
+                        How do We <span className='word_emphasy_v1'>Work?</span> <br />
                     </h1>
                 </div>
                 
@@ -265,11 +278,46 @@ const Home = () => {
             <div className='works_learnmore' >
                 <Button Placeholder="Learn More" type="route" targetLink="/work" /> 
             </div>
-
-            {/* Reviews */}
-
-            {/* Blog */}
         </div>
+
+        {/* Reviews/ Testimonials */}
+        <div className='testimonials_wrapper'>
+            <div className='testimonials_sectionOne'>
+                <div>
+                    <h3>TESTIMONIALS</h3>
+                    <h1>
+                        What People <span className='word_emphasy_v1'>Say</span> About Us
+                    </h1>
+                </div>
+            </div>
+            <div className='testimonials_sectionTwo'>
+                {
+                    testimonials.map((testimonial, index) => <TestimonialCard data={testimonial} key={index} /> )
+                }
+            </div>
+        </div>
+
+        {/* Blog */}
+        <div className='insights_wrapper'>
+            <div className='insights_sectionOne'>
+                <h1>
+                    Digital <span className='word_emphasy_v1'>Insights</span>
+                </h1>
+            </div>
+
+            <div className='insights_data'>
+                {
+                    insights.map((insight, index) => <BlogCard key={index} data={insight} />)
+                }
+            </div>
+
+            <div className='works_learnmore' >
+                <Button Placeholder="Learn More" type="route" targetLink="/work" /> 
+            </div>
+        </div>
+
+        {/* Footer */}
+        <Footer />
     </div>
   )
 }
