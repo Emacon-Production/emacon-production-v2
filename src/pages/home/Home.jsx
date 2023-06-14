@@ -9,8 +9,8 @@ import workstages from '../../assets/WorkStages.json'
 import ProjectCard from '../../components/project-card/ProjectCard'
 import testimonials from '../../assets/Testimonials.json'
 import TestimonialCard from '../../components/testimonial-card/TestimonialCard'
-import insights from '../../assets/Insights.json'
-import BlogCard from '../../components/blog-card/BlogCard'
+// import insights from '../../assets/Insights.json'
+// import BlogCard from '../../components/blog-card/BlogCard'
 import Footer from '../../components/footer/Footer'
 
 
