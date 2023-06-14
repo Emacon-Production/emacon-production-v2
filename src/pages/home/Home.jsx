@@ -292,13 +292,18 @@ const Home = () => {
             </div>
             <div className='testimonials_sectionTwo'>
                 {
-                    testimonials.map((testimonial, index) => <TestimonialCard data={testimonial} key={index} /> )
+                    testimonials.map((testimonial, index) => (
+                        <React.Fragment>
+                            {
+                                index < 3 ? <TestimonialCard data={testimonial} key={index} /> : null
+                            }
+                        </React.Fragment>) )
                 }
             </div>
         </div>
 
         {/* Blog */}
-        <div className='insights_wrapper'>
+        {/* <div className='insights_wrapper'>
             <div className='insights_sectionOne'>
                 <h1>
                     Digital <span className='word_emphasy_v1'>Insights</span>
@@ -307,14 +312,21 @@ const Home = () => {
 
             <div className='insights_data'>
                 {
-                    insights.map((insight, index) => <BlogCard key={index} data={insight} />)
+                    insights.map((insight, index) => (
+                        <React.Fragment>
+                            {
+                                index < 3 ? <BlogCard key={index} data={insight} /> : null
+                            }
+                            
+                        </React.Fragment>
+                    ))
                 }
             </div>
 
             <div className='works_learnmore' >
                 <Button Placeholder="Learn More" type="route" targetLink="/work" /> 
             </div>
-        </div>
+        </div> */}
 
         {/* Footer */}
         <Footer />
