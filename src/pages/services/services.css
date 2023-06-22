@@ -1,0 +1,30 @@
+.servicespage_sectionone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 8rem;
+    color: var(--text-secondary-color-v1);
+}
+
+.servicespage_sectionone h1 {
+    font-size: var(--heading-two);
+    text-align: center;
+}
+
+.servicespage_sectionone p {
+    font-size: var(--text-one);
+    text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+    .servicespage_sectionone{
+        padding: 2rem 3rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .aboutpage_sectionone{
+        padding: 1rem 1rem;
+    }
+}
