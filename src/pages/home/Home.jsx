@@ -99,7 +99,7 @@ const Home = () => {
                     We don't work as a tech-focused creative agency or a development business that abandons you when it's time to launch a product. 
                     <br /> <br />
                     To provide completely integrated digital solutions, we start with the human experience and add layers of creativity, strategy, technology, and marketing.
-                    DIG is positioned to assist you in achieving your goals thanks to this distinctive collection of competences that sets us different from other agencies.
+                    Emacon Production is positioned to assist you in achieving your goals thanks to this distinctive collection of competences that sets us different from other agencies.
                 </p>
                 <Button Placeholder="Let's Talk" type="route" targetLink="/contact" />
             </div>

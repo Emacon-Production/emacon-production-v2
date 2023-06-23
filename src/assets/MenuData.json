@@ -21,7 +21,7 @@
     },
     {
         "name": "Blog",
-        "target": "/blog",
+        "target": "/blogs",
         "type": "link"
     },
     {
