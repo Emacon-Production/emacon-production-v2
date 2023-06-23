@@ -1,7 +1,7 @@
 .aboutpage_sectionone{
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
     /* flex-wrap: wrap; */
     padding: 2rem 8rem;
     color: var(--text-secondary-color-v1);
