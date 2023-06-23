@@ -1,0 +1,23 @@
+.blogsage_sectionone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 8rem;
+    color: var(--text-secondary-color-v1);
+}
+
+.blogsage_sectionone img {
+    height: 20rem;
+}
+
+.blogsage_sectionone h1 {
+    font-size: var(--heading-two);
+    text-align: center;
+}
+
+@media screen and (max-width: 490px) {
+    .blogsage_sectionone img {
+        height: 15rem;
+    }
+}
