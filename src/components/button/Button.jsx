@@ -2,7 +2,7 @@ import React from 'react'
 import "./button.css"
 import { Link } from 'react-router-dom'
 
-const Button = ({ type, bgcolor, Placeholder, targetLink }) => {
+const Button = ({ type, bgcolor, Placeholder, targetLink, handleForm }) => {
   return (
     <React.Fragment>
         {
@@ -11,7 +11,7 @@ const Button = ({ type, bgcolor, Placeholder, targetLink }) => {
                     <span>{Placeholder}</span>
                 </Link>
             ) : (
-                <button className={`button ${bgcolor === "secondary" ? "secondary" : "main"}`}>
+                <button className={`button ${bgcolor === "secondary" ? "secondary" : "main"}`} onClick={handleForm}>
                     <span>{Placeholder}</span>
                 </button>
             )
