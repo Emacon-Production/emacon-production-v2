@@ -18,7 +18,7 @@ const ProjectCard = ({ data }) => {
             <p>
                 {data.projectDescription} 
             </p>
-            <Links Placeholder="Learn More" targetLink="/work" />
+            <Links Placeholder="Learn More" targetLink={data.projectLink} />
         </div>
     </div>
   )
