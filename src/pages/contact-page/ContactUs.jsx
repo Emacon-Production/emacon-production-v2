@@ -7,6 +7,7 @@ import { CircularProgress } from '@mui/material'
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from 'react-helmet-async'
 
 const renderLoading = () => (
   <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
@@ -86,6 +87,15 @@ const ContactUs = () => {
 
   return (
     <div className='contactus_wrapper'>
+       <Helmet>
+        <title>Contact Us | Emacon Production</title>
+        <meta 
+          name='description' 
+          content="Let us help you become even greaterat what you do. Our services include Photography, Video Production, Digital Marketing and Web Design & Development."
+        />
+        <link rel='canonical' href='/contact' />
+      </Helmet>
+
         <Navigation />
 
         <div className='contactus_sectionone'>
@@ -93,7 +103,7 @@ const ContactUs = () => {
             Let's work <span className='word_emphasy_v1' >together!</span>
           </h1>
           <p>
-            Let us help you become even greaterat what you do. <br />
+            Let us help you become even greater at what you do. <br />
             Fill out the following form and we will get back to you in the next 24 hours.
           </p>
         </div>
