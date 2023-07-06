@@ -4,10 +4,20 @@ import Navigation from '../../components/navigation/Navigation'
 import Footer from '../../components/footer/Footer'
 import services from '../../assets/Services.json'
 import ServiceCard from '../../components/service-card/ServiceCard'
+import { Helmet } from 'react-helmet-async'
 
 const Services = () => {
   return (
     <div className='servicespage_wrapper'>
+        <Helmet>
+            <title>Our Services | Emacon Production</title>
+            <meta 
+            name='description' 
+            content="Our services include Photography, Video Production, Digital Marketing and Web Design & Development."
+            />
+            <link rel='canonical' href='/services' />
+        </Helmet>
+
         <Navigation />
 
         <div className='servicespage_sectionone'>

@@ -12,6 +12,7 @@ import TestimonialCard from '../../components/testimonial-card/TestimonialCard'
 // import insights from '../../assets/Insights.json'
 // import BlogCard from '../../components/blog-card/BlogCard'
 import Footer from '../../components/footer/Footer'
+import { Helmet } from 'react-helmet-async'
 
 
 // Works menu
@@ -44,6 +45,15 @@ const Home = () => {
 
   return (
     <div className='home_wrapper'>
+        <Helmet>
+            <title>Home | Emacon Production</title>
+            <meta 
+            name='description' 
+            content="We specialize in Digital Innovation for your business and make a positive impact by combining the power of strategy, creativity and technology. Our services include Photography, Video Production, Digital Marketing and Web Design & Development."
+            />
+            <link rel='canonical' href='/' />
+        </Helmet>
+
         <Navigation />
 
         {/* Hero Section */}
@@ -60,7 +70,7 @@ const Home = () => {
             <div className='home_hero_sectiontwo'>
                 <p>
                     We specialize in <span className='word_emphasy_v1'>Digital Innovation</span> for 
-                    your business and make a positive impact by combining the power od strategy, 
+                    your business and make a positive impact by combining the power of strategy, 
                     creativity and technology
                 </p>
             </div>

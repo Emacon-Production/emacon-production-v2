@@ -3,6 +3,7 @@ import Navigation from '../../components/navigation/Navigation'
 import Footer from '../../components/footer/Footer'
 import clients from '../../assets/Clients.json'
 import ProjectCard from '../../components/project-card/ProjectCard'
+import { Helmet } from 'react-helmet-async'
 
 // Works menu
 const worksMenu = [
@@ -29,6 +30,15 @@ const Works = () => {
 
   return (
     <div>
+        <Helmet>
+            <title>Our Work | Emacon Production</title>
+            <meta 
+            name='description' 
+            content="Our services include Photography, Video Production, Digital Marketing and Web Design & Development."
+            />
+            <link rel='canonical' href='/services' />
+        </Helmet>
+
         <Navigation />
 
         <div className='works_wrapper'>

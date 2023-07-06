@@ -1,6 +1,6 @@
 import React from 'react'
 import './servicecard.css'
-import Links from '../links/Links'
+// import Links from '../links/Links'
 
 const ServiceCard = ({ name, description, routeName, thumbnail }) => {
   return (
@@ -9,9 +9,9 @@ const ServiceCard = ({ name, description, routeName, thumbnail }) => {
         <span>{ name }</span>
         <p class="info">{ description }</p>
         {/* <button>Learn More</button> */}
-        <div className='card_btn'>
+        {/* <div className='card_btn'>
             <Links Placeholder="Learn More" targetLink={routeName} />
-        </div>
+        </div> */}
         
     </div>
   )
