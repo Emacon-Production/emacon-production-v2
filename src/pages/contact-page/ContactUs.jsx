@@ -27,8 +27,6 @@ const ContactUs = () => {
     details: ""
   });
 
-  console.log(emailData);
-
   const handleContactForm = e => {
     e.preventDefault();
     setLoading(true);
@@ -195,7 +193,7 @@ const ContactUs = () => {
                 rows="6" 
                 className="input-box" 
                 type="text" 
-                placeholder="Type your full name" 
+                placeholder="Type your message" 
                 value={emailData.details}
                 onChange={e => setEmailData({...emailData, details: e.target.value})}
               />
