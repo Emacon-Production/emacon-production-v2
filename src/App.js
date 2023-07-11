@@ -7,6 +7,7 @@ import Works from "./pages/works/Works";
 import Blogs from "./pages/blogs/Blogs";
 import ContactUs from "./pages/contact-page/ContactUs";
 import DigitalMarketing from "./pages/digital-marketing/DigitalMarketing";
+import PhotographyVideo from "./pages/photography_video_page/PhotographyVideo";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -26,6 +27,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/photography-and-videography" element={<PhotographyVideo />} />
+        <Route path="/services/photography-and-videography" element={<PhotographyVideo />} />
         <Route path="/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/work" element={<Works />} />

@@ -5,6 +5,7 @@
     padding: 1rem 7rem;
 
     background: var(--main-color);
+    z-index: 10;
 
     /* position: fixed;
     background: yellow;

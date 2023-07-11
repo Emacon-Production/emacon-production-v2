@@ -1,5 +1,14 @@
 [
     {
+        "clientName": "Sarova Mara",
+        "projectName": "Sarova Mara Experience",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1689074378/Emacon%20Production/mara-logo_ijr2h4.svg",
+        "projectDescription": "Sarova Mara Game Camp is ideally located in the heart of the Masai Mara Game Reserve in Kenya and offers a unique African safari experience for game viewing.",
+        "projectLink": "https://emaconproduction44.pixieset.com/massaimarasarovamara/",
+        "projectType": "Photography",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1689075142/Emacon%20Production/DSC00089_izgide.jpg"
+    },
+    {
         "clientName": "Red Bull",
         "projectName": "Freerun/Parkour athlete Noa Diorgina Kenya Recce",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/redbullcom-logo_2_fa18yq.png",
@@ -7,7 +16,8 @@
         "projectLink": "https://www.youtube.com/embed/pMGVdHVpFBw",
         "projectType": "Video Production",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1688449861/Emacon%20Production/Red_Bull_Noa_Recce.00_00_57_02.Still001_l8qtg7.jpg"
-    },{
+    },
+    {
         "clientName": "IFAD",
         "projectName": "Global Forum on Remittances, Investment and Development 2023",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686622526/Emacon%20Production/international-fund-for-agricultural-development-ifad-vector-logo_nrt9yx.png",
