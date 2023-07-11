@@ -1,5 +1,6 @@
 .photographyvideo_hero {
     background: var(--main-color);
+    z-index: -1 !important;
 }
 .hero_video {
     /* position: absolute; */
@@ -8,7 +9,7 @@
     height: 40rem !important;
     width: 100%;
     object-fit: cover;
-    z-index: -2 !important;
+    /* z-index: -2 !important; */
     opacity: 0.3;
 }
 
@@ -22,9 +23,9 @@
     align-items: flex-start;
     flex-direction: column;
     padding: 3rem 8rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
     color: var(--text-main-color);
-    z-index: -0.5 !important;
+    /* z-index: -1 !important; */
 }
 
 .photographyvideo_hero_content h1 {
