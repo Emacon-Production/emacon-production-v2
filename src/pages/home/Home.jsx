@@ -20,7 +20,6 @@ const worksMenu = [
     "All",
     "Photography", 
     "Video Production",
-    "Digital Marketing",
     "Web Design & Development"
 ]
 
@@ -50,6 +49,16 @@ const Home = () => {
             <meta 
             name='description' 
             content="We specialize in Digital Innovation for your business and make a positive impact by combining the power of strategy, creativity and technology. Our services include Photography, Video Production, Digital Marketing and Web Design & Development."
+            />
+            <meta
+              name="keywords"
+              content="
+                Video Production, video production companies in Africa, video production companies in East Africa, video production companies in kenya, video production companies in Nairobi, 
+                video production company, video production meaning, video production agency,video production agency near me,video production budget, video production business, 
+                video production for social media, video production for small businesses, Nairobi Videographer, Nairobi Photographer,
+                Travel Photography & Video production, travel photography companies,
+                Documentary Video Production & Photography, documentary video production, documentary video production house, film video production, documentary video editing, full video production service, film & video production house, full video production agency, documentary video production company, video/film production companies, video film production agency,
+                corporate Photography, corporate photography pricing, corporate photography near me"
             />
             <link rel='canonical' href='/' />
         </Helmet>
@@ -286,7 +295,7 @@ const Home = () => {
             </div>
 
             <div className='works_learnmore' >
-                <Button Placeholder="Learn More" type="route" targetLink="/work" /> 
+                <Button Placeholder="View More" type="route" targetLink="/work" /> 
             </div>
         </div>
 
