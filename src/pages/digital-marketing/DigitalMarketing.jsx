@@ -110,6 +110,16 @@ const DigitalMarketing = () => {
             name='description' 
             content="As a full-service digital agency with capabilities across Content Marketing, SEO, SEM, Social Media Marketing and Web Design & Development, we work with clients to unlock value through creativity, technology and business-minded business"
           />
+          <meta
+              name="keywords"
+              content="
+                Video Production, video production companies in Africa, video production companies in East Africa, video production companies in kenya, video production companies in Nairobi, 
+                video production company, video production meaning, video production agency,video production agency near me,video production budget, video production business, 
+                video production for social media, video production for small businesses, Nairobi Videographer, Nairobi Photographer,
+                Travel Photography & Video production, travel photography companies,
+                Documentary Video Production & Photography, documentary video production, documentary video production house, film video production, documentary video editing, full video production service, film & video production house, full video production agency, documentary video production company, video/film production companies, video film production agency,
+                corporate Photography, corporate photography pricing, corporate photography near me"
+            />
           <link rel='canonical' href='/services' />
       </Helmet>
 
