@@ -79,6 +79,14 @@
     .aboutpage_sectionone p {
         padding: 0rem 0rem 0rem 1rem;
     }
+
+    .aboutpage_sectiontwo {
+        padding: 2rem 2rem;
+    }
+
+    .teamcards_wrapper {
+        grid-template-columns: auto auto;
+    }
 }
 
 @media screen and (max-width: 490px) {
@@ -89,5 +97,9 @@
     .aboutpage_sectionone p {
         font-size: var(--text-one);
         padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .teamcards_wrapper {
+        grid-template-columns: auto;
     }
 }

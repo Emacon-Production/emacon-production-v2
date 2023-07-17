@@ -21,7 +21,7 @@ const teamData = [
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689601383/Emacon%20Production/ALISHA-085-Edit_vpod7z.jpg"
   },
   {
-    name: "Erick Forester",
+    name: "Sam Njenga",
     role: "Web Developer",
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689601598/Emacon%20Production/WhatsApp_Image_2023-07-17_at_16.13.25_hfwtjg.jpg"
   }
