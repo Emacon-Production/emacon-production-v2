@@ -5,8 +5,7 @@ import Footer from '../../components/footer/Footer'
 import { Helmet } from 'react-helmet-async'
 
 const Blogs = () => {
-    
-
+  
   return (
     <div>
       <Helmet>
@@ -32,7 +31,7 @@ const Blogs = () => {
 
         <div className='blogsage_sectionone'>
             <img src='https://res.cloudinary.com/emacon-production/image/upload/v1687443940/Emacon%20Production/undraw_under_construction_46pa_1_hy4whe.png' alt='Emacon Production | Blog' />
-            <h1>COMMING SOON...</h1>
+            <h1>COMING SOON...</h1>
         </div>
 
         <Footer />

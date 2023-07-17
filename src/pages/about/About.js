@@ -4,9 +4,33 @@ import Navigation from '../../components/navigation/Navigation'
 import Footer from '../../components/footer/Footer'
 import { Helmet } from 'react-helmet-async'
 
+const teamData = [
+  {
+    name: "Victor Githui",
+    role: "Creative Director/ Filmmaker",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689595132/Emacon%20Production/WhatsApp_Image_2023-07-17_at_14.58.17_sxwtcp.jpg"
+  },
+  {
+    name: "Winfred Nyaga",
+    role: "Project Manager",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689598367/Emacon%20Production/Square1.photo_cqjvp1.jpg"
+  },
+  {
+    name: "Erick Forester",
+    role: "Photographer",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689601383/Emacon%20Production/ALISHA-085-Edit_vpod7z.jpg"
+  },
+  {
+    name: "Erick Forester",
+    role: "Web Developer",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689601598/Emacon%20Production/WhatsApp_Image_2023-07-17_at_16.13.25_hfwtjg.jpg"
+  }
+]
+
 const About = () => {
   return (
     <div className='aboutpage_wrapper'>
+      {/* SEO Meta Data */}
       <Helmet>
         <title>About Us | Emacon Production</title>
         <meta 
@@ -29,8 +53,11 @@ const About = () => {
             />
         <link rel='canonical' href='/about' />
       </Helmet>
+
+      {/* Navigation */}
       <Navigation />
 
+      {/* Hero Section */}
       <div className='aboutpage_sectionone'>
           <h1>
               We build bridges between <span className='word_emphasy_v1' >companies and customers</span>
@@ -41,8 +68,29 @@ const About = () => {
           </p>
       </div>
 
-      <div className='aboutpage_sectiontwo'></div>
+      {/* Our team Section */}
+      <div className='aboutpage_sectiontwo'>
+        <h1>Our <span className='word_emphasy_v1' >Team</span></h1>
+        <p>
+          To be the business our customers want us to be, it takes an eclectic group of passionate operators. Meet our team of 
+          creators and world-class problem solvers.  
+        </p>
+        <div className='teamcards_wrapper'>
+          {
+            teamData.map((member, index) => (
+              <div className='teamcard' key={index}>
+                <img src={member.thumbnail} alt={member.name} />
+                <div className='teamcard_details'>
+                  <h4>{member.name}</h4>
+                  <p>{member.role}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
 
+      {/* Footer */}
       <Footer />
     </div>
   )
