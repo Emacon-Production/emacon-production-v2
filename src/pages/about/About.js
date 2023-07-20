@@ -11,7 +11,7 @@ const teamData = [
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689595132/Emacon%20Production/WhatsApp_Image_2023-07-17_at_14.58.17_sxwtcp.jpg"
   },
   {
-    name: "Winfred Nyaga",
+    name: "Wanjiku Nyaga",
     role: "Project Manager",
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689598367/Emacon%20Production/Square1.photo_cqjvp1.jpg"
   },

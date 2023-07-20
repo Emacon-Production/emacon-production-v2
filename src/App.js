@@ -8,10 +8,13 @@ import Blogs from "./pages/blogs/Blogs";
 import ContactUs from "./pages/contact-page/ContactUs";
 import DigitalMarketing from "./pages/digital-marketing/DigitalMarketing";
 import PhotographyVideo from "./pages/photography_video_page/PhotographyVideo";
+import WebDesignDevelopment from "./pages/webdesign_and_development/WebDesignDevelopment";
 
 const ScrollToTop = () => {
+  // Checks Route
   const { pathname } = useLocation();
 
+  // Scrolls page to top once the path changes 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
@@ -31,6 +34,8 @@ function App() {
         <Route path="/services/photography-and-videography" element={<PhotographyVideo />} />
         <Route path="/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
+        <Route path="/web-design-and-development" element={<WebDesignDevelopment />} />
+        <Route path="/services/web-design-and-development" element={<WebDesignDevelopment />} />
         <Route path="/work" element={<Works />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<ContactUs />} />

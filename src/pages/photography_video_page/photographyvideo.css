@@ -6,7 +6,7 @@
     /* position: absolute; */
     /* right: 0;
     bottom: 0; */
-    height: 50rem !important;
+    height: 40rem !important;
     width: 100%;
     object-fit: cover;
     /* z-index: -2 !important; */
@@ -16,13 +16,13 @@
 .photographyvideo_hero_content {
     position: absolute;
     width: 60%;
-    height: 50rem;
+    height: 40rem;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding: 3rem 8rem;
+    padding: 1rem 8rem;
     margin-top: 6rem;
     color: var(--text-main-color);
     /* z-index: -1 !important; */
