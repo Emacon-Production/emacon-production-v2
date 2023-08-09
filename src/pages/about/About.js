@@ -16,10 +16,16 @@ const teamData = [
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689598367/Emacon%20Production/Square1.photo_cqjvp1.jpg"
   },
   {
+    name: "Chebet Kipingor",
+    role: "Head of Digital",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1691135962/Emacon%20Production/WhatsApp_Image_2023-08-04_at_10.52.06_vxozri.jpg"
+  },
+  {
     name: "Erick Forester",
     role: "Photographer",
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689601383/Emacon%20Production/ALISHA-085-Edit_vpod7z.jpg"
   },
+  
   {
     name: "Sam Njenga",
     role: "Web Developer",
