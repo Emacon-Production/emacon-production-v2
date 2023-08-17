@@ -6,7 +6,7 @@ const TestimonialCard = ({ data }) => {
     <div className='testimonialcard_wrapper'>
       <div className='testimonialcard_content'>
         <img 
-          src='https://res.cloudinary.com/emacon-production/image/upload/v1686213304/techworks/WhatsApp_Image_2023-06-08_at_10.38.15_zr1qzs.jpg' 
+          src={data.headshot} 
           alt='Emacon Production Testimonial' 
         />
 
