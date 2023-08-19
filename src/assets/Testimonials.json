@@ -1,9 +1,23 @@
 [
     {
+        "company": "Following Life Music",
+        "name": "Steve Osoro",
+        "role": "Chairman",
+        "review": "Emacon Production shot two acapella videos for us and they're the most skilled and professional media company in Kenya. Everything was top notch quality from the creativity of the final products, video quality, time-keeping and good communication throughout the project.",
+        "headshot": "https://res.cloudinary.com/emacon-production/image/upload/v1692348139/Emacon%20Production/Shall_We_Gather.00_00_10_02.Still001_jyk6wv.jpg"
+    },
+    {
         "company": "EireKenya Housing Co-op. Ltd",
         "name": "Susan Lengewa",
         "role": "Admin",
         "review": "Emacon Productions offered comprehensive media coverage services for our Groundbreaking event, displaying an exemplary level of professionalism. Their flexibility and attentive approach to our requirements were complemented by the delivery of high-quality services, and we definitely got our money's worth. The team's exceptional responsiveness and unwavering professionalism contributed to a smooth and seamless event and their proactive efforts went beyond expectations in ensuring the success of our event. I wholeheartedly endorse their promptness, superior quality, and professionalism.",
         "headshot": "https://res.cloudinary.com/emacon-production/image/upload/v1692268174/Emacon%20Production/file_nogniv.jpg"
+    },
+    {
+        "company": "The Wheel Spin Podcast",
+        "name": "Winfred Nyaga & Rae Muchiru",
+        "role": "Hosts",
+        "review": "We had and continue to have a seamless experience with producing our podcast. The team is timely with the deliverables, and professional with how they provide the services.",
+        "headshot": "https://res.cloudinary.com/emacon-production/image/upload/v1692342431/Emacon%20Production/Wheel_Spin_Podcast_Logo_1_zvomca.png"
     }
 ]
