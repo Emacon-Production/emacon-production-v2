@@ -1,5 +1,23 @@
 [
     {
+        "clientName": "Gondwana",
+        "projectName": "Sundowner Showcase XVI",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1692966845/Emacon%20Production/images-removebg-preview_xjbqom.png",
+        "projectDescription": "Kenya's foremost Afro-House stable, they aim to take electronic music where few have gone before",
+        "projectLink": "https://www.instagram.com/reel/CwUt-OKoHJz/",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1692967543/Emacon%20Production/DSC04537_dx7no2.jpg"
+    },
+    {
+        "clientName": "Following Life Music",
+        "projectName": "Shall We Gather At The River Cover",
+        "logo": "",
+        "projectDescription": "An Acapella Music Band based in Kenya",
+        "projectLink": "https://www.youtube.com/embed/zjWAW0BFuQ8?si=XDpmGlA2Q2_tu1nQ",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1692348139/Emacon%20Production/Shall_We_Gather.00_00_10_02.Still001_jyk6wv.jpg"
+    },
+    {
         "clientName": "The Wheel Spin Podcast",
         "projectName": "Guess the Driver Team Radio!!!",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1690995656/The%20Wheel%20Spin%20Podcast/Wheel_Spin_Podcast_Logo_1-removebg-preview_hnvcoq.png",

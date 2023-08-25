@@ -30,7 +30,7 @@ const Home = () => {
 
     // This filters out duplicate clients
     let companylist = clients.filter((currentObject, index) => {
-        return clients.findIndex(client => client.clientName === currentObject.clientName) === index
+        return clients.findIndex(client => client.clientName === currentObject.clientName && client.logo !== "") === index
     });
 
     // This filters out only photography clients
