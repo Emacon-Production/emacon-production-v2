@@ -1,5 +1,41 @@
 [
     {
+        "clientName": "Southern Voice",
+        "projectName": "Southern Voice Conference 2023 Nairobi, Kenya",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1700165663/Emacon%20Production/logoSouthernVoiceJustWhiteNoBackground_2x-600x121_vrmsck.png",
+        "projectDescription": "This 10th Anniversary conference, co-hosted with our network members in Kenya – The Kenya Institute for Public Policy Research and Analysis (KIPPRA), Global Centre for Policy and Strategy (GLOCEPS) and the Institute for Economic Affairs (IEA) – was held on the 24th and 25th of October 2023 in Nairobi, Kenya. It brought together the leadership of our member institutions from Africa, Asia, Latin America and the Caribbean, as well as key partners from across the globe.",
+        "projectLink": "https://www.youtube.com/embed/ay77r6fs1Eo?si=iwk6hkfESLIPqMhx",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1700166409/Emacon%20Production/Screenshot_2023-11-16_at_11.26.20_PM_kn77un.png"
+    },
+    {
+        "clientName": "Kings Developers Limited",
+        "projectName": "Kings Developers Limited Profile Video",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1700167228/Emacon%20Production/Screenshot_2023-11-16_at_11.39.31_PM-removebg-preview_tx0srz.png",
+        "projectDescription": "Kings Developers Ltd is one of the leading real estate companies in Kenya with a range of affordable to middle class and high-end properties . It is part of the Royal Group of Companies, a professionally managed group, diversified in a wide range of business activities.",
+        "projectLink": "https://www.youtube.com/embed/f30omXe4eRs?si=QFDxSC87nOnfpjz6",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1700167541/Emacon%20Production/Sequence_03.00_03_08_12.Still014_lfdxfk.jpg"
+    },
+    {
+        "clientName": "Safaricom, DigiFarm",
+        "projectName": "Wezesha Agri Programme by Africa Instore Solutions",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1700164053/Emacon%20Production/SAF-MAIN-LOGO_exv5z9.png",
+        "projectDescription": "Africa Instore Solutions is a social enterprise founded in 2013 in2012 in partnership with Safaricom DigiFarm with the a goal to create economically empowered rural communities with sustainable trade and investments.",
+        "projectLink": "https://www.youtube.com/embed/X9AgvpAGDV8?si=AmPkSz3doDh_hvLc",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1700165099/Emacon%20Production/Screenshot_2023-11-16_at_11.04.20_PM_ltrom6.png"
+    },
+    {
+        "clientName": "Red Bull",
+        "projectName": "Red Bull Back to School Campaign",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/redbullcom-logo_2_fa18yq.png",
+        "projectDescription": "Red Bull Back to School Campaign",
+        "projectLink": "https://emaconproduction44.pixieset.com/redbullback-to-schoolcampaign/all/",
+        "projectType": "Photography",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1700169048/Emacon%20Production/COI08185_cduwm1.jpg"
+    },
+    {
         "clientName": "Gondwana",
         "projectName": "Sundowner Showcase XVI",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1692966845/Emacon%20Production/images-removebg-preview_xjbqom.png",
