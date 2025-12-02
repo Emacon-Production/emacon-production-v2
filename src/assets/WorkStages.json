@@ -1,22 +1,32 @@
 [
     {
         "icon": "bx bx-shape-circle",
-        "name": "Briefing",
-        "description": "Summary of information or instructions given before a project."
+        "name": "Inquiry & Discovery",
+        "description": "The process starts when you reach out. We learn about your brand, goals, audience, and vision. This stage allows us to understand your needs and determine how our services can deliver maximum impact."
     },
     {
         "icon": "bx bx-bulb",
-        "name": "Idea",
-        "description": "Generated through brainstorming, research, observation."
+        "name": "Strategy & Proposal",
+        "description": "Based on the discovery, we craft a tailored strategy and outline a plan of action. This includes content concepts, deliverables, timelines, and investment. We ensure alignment with your brand objectives before moving forward."
     },
     {
         "icon": "bx bxs-cog",
-        "name": "Processing",
-        "description": "Set of actions that transform inputs into desired outputs, requiring planning."
+        "name": "Creative Planning & Production",
+        "description": "Once approved, our team moves into full creative execution. For photography, videography, or digital content, this involves storyboarding, shooting, and designing assets. Every step is guided by the strategy to ensure both creativity and performance."
     },
     {
-        "icon": "bx bxs-flag-alt",
-        "name": "Finishing",
-        "description": "Final stage of a process where the product outcome is completed."
+        "icon": "bx bx-analyze",
+        "name": "Review & Refinement",
+        "description": "We present drafts or proofs for your feedback. This stage ensures your vision is reflected, and adjustments are made before final delivery."
+    },
+    {
+        "icon": "bx bx-mail-open",
+        "name": "Delivery & Distribution Support",
+        "description": "Final assets are delivered in formats ready for digital platforms, print, or campaigns. If applicable, we also provide guidance or support for distribution and performance optimization."
+    },
+    {
+        "icon": "bx bx-people-handshake",
+        "name": "Performance Tracking & Ongoing Partnership",
+        "description": "For services like social media and performance marketing, we monitor results, provide analytics, and recommend optimizations. Many clients choose to continue with retainer packages to maintain consistent growth and brand storytelling."
     }
 ]

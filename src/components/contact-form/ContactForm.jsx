@@ -1,13 +1,9 @@
 import React, { useState } from 'react'
-import './contactus.css'
-import Navigation from '../../components/navigation/Navigation'
-import Footer from '../../components/footer/Footer'
-import Button from '../../components/button/Button'
-import { CircularProgress } from '@mui/material'
+import { CircularProgress } from '@mui/material';
 import emailjs from '@emailjs/browser';
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css';
-import { Helmet } from 'react-helmet-async'
+import { toast, ToastContainer } from 'react-toastify';
+import '../../pages/contact-page/contactus.css'
+import Button from '../button/Button';
 
 const renderLoading = () => (
   <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
@@ -15,8 +11,8 @@ const renderLoading = () => (
   </div>
 )
 
-const ContactUs = () => {
-  const [ loading, setLoading ] = useState(false);
+function ContactForm() {
+    const [ loading, setLoading ] = useState(false);
   const [ emailData, setEmailData ] = useState({
     name: "",
     email: "",
@@ -85,27 +81,6 @@ const ContactUs = () => {
 
   return (
     <div className='contactus_wrapper'>
-       <Helmet>
-        <title>Contact Us | Emacon Production</title>
-        <meta 
-          name='description' 
-          content="Let us help you become even greaterat what you do. Our services include Photography, Video Production, Digital Marketing and Web Design & Development."
-        />
-        <meta
-              name="keywords"
-              content="
-                Video Production, video production companies in Africa, video production companies in East Africa, video production companies in kenya, video production companies in Nairobi, 
-                video production company, video production meaning, video production agency,video production agency near me,video production budget, video production business, 
-                video production for social media, video production for small businesses, Nairobi Videographer, Nairobi Photographer,
-                Travel Photography & Video production, travel photography companies,
-                Documentary Video Production & Photography, documentary video production, documentary video production house, film video production, documentary video editing, full video production service, film & video production house, full video production agency, documentary video production company, video/film production companies, video film production agency,
-                corporate Photography, corporate photography pricing, corporate photography near me"
-            />
-        <link rel='canonical' href='/contact' />
-      </Helmet>
-
-        <Navigation />
-
         <div className='contactus_sectionone'>
           <h1>
             Let's work <span className='word_emphasy_v1' >together!</span>
@@ -213,7 +188,7 @@ const ContactUs = () => {
             <Button Placeholder={ loading ? renderLoading() : "Send" } handleForm={e => handleContactForm(e)} />
           </form>
 
-          <div className='contactus_sectiontwo_address'>
+          {/* <div className='contactus_sectiontwo_address'>
             <h4>CALL US</h4>
             <p>
               +254 701 230892
@@ -224,14 +199,12 @@ const ContactUs = () => {
               info@emaconproduction.com
             </p>
 
-          </div>
+          </div> */}
         </div>
 
-        <Footer />
-
-        <ToastContainer />
+          <ToastContainer />
     </div>
   )
 }
 
-export default ContactUs
+export default ContactForm
