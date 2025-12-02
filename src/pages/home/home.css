@@ -28,7 +28,7 @@
     justify-content: center;
     position: absolute;
     width: 100%;
-    top: 28rem;
+    top: 30rem;
 }
 
 .home_sctiontwo_showreel iframe {
@@ -158,6 +158,10 @@
 .stage_icon_wrapper i{
     font-size: 2.5rem;
     color: var(--text-main-color);
+}
+
+.stage_wrapper h2{
+    text-align: center;
 }
 
 .stage_wrapper p{

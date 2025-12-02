@@ -13,6 +13,7 @@ import TestimonialCard from '../../components/testimonial-card/TestimonialCard'
 // import BlogCard from '../../components/blog-card/BlogCard'
 import Footer from '../../components/footer/Footer'
 import { Helmet } from 'react-helmet-async'
+import ContactForm from '../../components/contact-form/ContactForm'
 
 
 // Works menu
@@ -106,18 +107,17 @@ const Home = () => {
         {/* About Us */}
         <div className='about_wrapper'>
             <div className='about_img'>
-                <img src='https://res.cloudinary.com/emacon-production/image/upload/v1686514699/Emacon%20Production/WhatsApp_Image_2023-05-18_at_08.01.12_aelox2.jpg' alt='Emacon Production' />
+                <img src='https://res.cloudinary.com/emacon-production/image/upload/v1764681883/Emacon%20Production/WhatsApp_Image_2023-12-28_at_15.25.50_rm60zj.jpg' alt='Emacon Production' />
             </div>
 
             <div className='about_content'>
                 <h3>ABOUT US</h3>
-                <h2>Why You Should Choose Emacon</h2>
+                <h2>Why Brands Choose to Work With Us</h2>
                 <p>
-                    We set out to create an agency with the goal of resolving tomorrow's business issues, and that calls for a different business model.
-                    We don't work as a tech-focused creative agency or a development business that abandons you when it's time to launch a product. 
-                    <br /> <br />
-                    To provide completely integrated digital solutions, we start with the human experience and add layers of creativity, strategy, technology, and marketing.
-                    Emacon Production is positioned to assist you in achieving your goals thanks to this distinctive collection of competences that sets us different from other agencies.
+                    At Emacon Production, we combine strategy, creativity, and performance to create content that truly works for your brand. We don’t just produce beautiful visuals, we craft intentional stories 
+                    designed to drive engagement, strengthen brand presence, and convert audiences across digital platforms. <br/><br/> With a full-stack team of filmmakers, photographers, and digital strategists, we handle 
+                    everything from concept to distribution, ensuring every asset aligns with your goals and delivers measurable impact. Rooted in African storytelling and powered by global production standards, 
+                    we partner with brands that want consistent, high-quality content and a creative team that understands growth, not just aesthetics.
                 </p>
                 <Button Placeholder="Let's Talk" type="route" targetLink="/contact" />
             </div>
@@ -127,13 +127,13 @@ const Home = () => {
         <div className='home_services_wrapper' >
             <div className='home_services_sectionOne'>
                 <h1>
-                    What <span className='word_emphasy_v1'>Services</span> <br />
-                    We're Offering
+                    What <span className='word_emphasy_v1'>Services</span> We're Offering
                 </h1>
                 <p>
-                    We provide services that can assist businesses in improving their online visibility 
-                    and reputation, expanding market reach, and increasing turn over through innovative 
-                    strategies. The following are the services we offer:
+                    We are a performance creative agency specializing in content strategy, media production, digital storytelling, social media and performance marketing. 
+                    We help forward-thinking brands communicate their value through cinematic visuals, consistent content creation, and platform-specific strategies. <br/><br/> 
+                    Our work spans lifestyle content, impactful education narratives, branded documentaries, social media management and creative design all executed with 
+                    intentionality, cultural relevance, and a strong focus on performance.
                 </p>
             </div>
 
@@ -212,7 +212,7 @@ const Home = () => {
                                 clients.map((client, index) => (
                                     <React.Fragment>
                                         {
-                                            index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                            index < 3 ? <ProjectCard key={index} data={client} /> : null
                                         }
                                         
                                     </React.Fragment>))
@@ -226,7 +226,7 @@ const Home = () => {
                                     photographyClients.map((client, index) => (
                                         <React.Fragment>
                                             {
-                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                                index < 3 ? <ProjectCard key={index} data={client} /> : null
                                             }
                                             
                                         </React.Fragment>))
@@ -240,7 +240,7 @@ const Home = () => {
                                     videoClients.map((client, index) => (
                                         <React.Fragment>
                                             {
-                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                                index < 3 ? <ProjectCard key={index} data={client} /> : null
                                             }
                                             
                                         </React.Fragment>))
@@ -254,7 +254,7 @@ const Home = () => {
                                     digitalClients.map((client, index) => (
                                         <React.Fragment>
                                             {
-                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                                index < 3 ? <ProjectCard key={index} data={client} /> : null
                                             }
                                             
                                         </React.Fragment>))
@@ -268,7 +268,7 @@ const Home = () => {
                                     digitalClients.map((client, index) => (
                                         <React.Fragment>
                                             {
-                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                                index < 3 ? <ProjectCard key={index} data={client} /> : null
                                             }
                                             
                                         </React.Fragment>))
@@ -282,7 +282,7 @@ const Home = () => {
                                     webClients.map((client, index) => (
                                         <React.Fragment>
                                             {
-                                                index < 4 ? <ProjectCard key={index} data={client} /> : null
+                                                index < 3 ? <ProjectCard key={index} data={client} /> : null
                                             }
                                             
                                         </React.Fragment>))
@@ -319,6 +319,8 @@ const Home = () => {
                 }
             </div>
         </div>
+
+        <ContactForm />
 
         {/* Blog */}
         {/* <div className='insights_wrapper'>

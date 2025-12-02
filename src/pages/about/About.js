@@ -9,32 +9,6 @@ const teamData = [
     name: "Victor Githui",
     role: "Creative Director/ Filmmaker",
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689595132/Emacon%20Production/WhatsApp_Image_2023-07-17_at_14.58.17_sxwtcp.jpg"
-  },
-  {
-    name: "Brian Gitonga",
-    role: "Business Development",
-    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1686213304/techworks/WhatsApp_Image_2023-06-08_at_10.38.15_zr1qzs.jpg"
-  },
-  {
-    name: "Wanjiku Nyaga",
-    role: "Project Manager",
-    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1695049627/Emacon%20Production/DSC06447-3_yfstwv.jpg"
-  },
-  {
-    name: "Chebet Kipingor",
-    role: "Head of Digital",
-    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1691135962/Emacon%20Production/WhatsApp_Image_2023-08-04_at_10.52.06_vxozri.jpg"
-  },
-  {
-    name: "Erick Forester",
-    role: "Photographer",
-    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689601383/Emacon%20Production/ALISHA-085-Edit_vpod7z.jpg"
-  },
-  
-  {
-    name: "Sam Njenga",
-    role: "Web Developer",
-    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689601598/Emacon%20Production/WhatsApp_Image_2023-07-17_at_16.13.25_hfwtjg.jpg"
   }
 ]
 

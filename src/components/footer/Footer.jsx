@@ -71,7 +71,7 @@ const Footer = () => {
             {/* Subscription Form */}
             <div className='footer_emailSubscription_wrapper'>
                 <div className='subscribe_form-title'>
-                    <h1> STAY IN <span className='word_emphasy_v1'>TOUCH</span></h1>
+                    <h1>Unlock Exclusive <span className='word_emphasy_v1'>Insights & Updates</span></h1>
                 </div>
 
                 <div className='subscribe_form-wrapper'>
