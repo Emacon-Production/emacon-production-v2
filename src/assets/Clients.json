@@ -1,5 +1,23 @@
 [
     {
+        "clientName": "Lehem Interiors",
+        "projectName": "Renovation Home Tour || The Reveal",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1717598792/Emacon%20Production/Screenshot_2024-06-05_at_17.46.09_bmjkqn.png",
+        "projectDescription": "Lehem Interiors offer services in Design Only, Design Turnkey, Design & Build, Furnishing & Fit Outs, Landscape Design and Renovation. concepts(visions), detail drawings, furnishing and styling.",
+        "projectLink": "https://www.youtube.com/watch?v=FYgedW9YCu4",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1717598914/Emacon%20Production/Screenshot_2024-06-05_at_17.48.20_cx3iug.png"
+    },
+    {
+        "clientName": "Spring Valley Coffee",
+        "projectName": "Spring Valley Coffee feature at th Standart Magazine",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1717598282/Emacon%20Production/SVC_logo-01_q3hay9.png",
+        "projectDescription": "Readers, meet Ritesh Doshi, CEO of Spring Valley Coffee in Nairobi—the roaster of the coffee we’re shipping at the moment with your copies of Standart Issue 34. It’s a rare opportunity to taste coffee roasted at its origin, so this spring we’re thrilled to bring you fully washed Zamanee coffee, a testament to the dedication of 558 women from the Kapkiyai and Kibukwo cooperatives in Kenya. Get brewing using the recipe they share with you, and slowly savor the flavors of Kenyan coffee as you sip away. Enjoy!",
+        "projectLink": "https://www.instagram.com/reel/C5DyQ9qNTq9/",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1717598629/Emacon%20Production/Screenshot_2024-06-05_at_17.43.32_kv6y0u.png"
+    },
+    {
         "clientName": "Southern Voice",
         "projectName": "Southern Voice Conference 2023 Nairobi, Kenya",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1700165663/Emacon%20Production/logoSouthernVoiceJustWhiteNoBackground_2x-600x121_vrmsck.png",
