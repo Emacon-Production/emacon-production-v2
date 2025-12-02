@@ -3,13 +3,34 @@ import './about.css'
 import Navigation from '../../components/navigation/Navigation'
 import Footer from '../../components/footer/Footer'
 import { Helmet } from 'react-helmet-async'
+import ContactForm from '../../components/contact-form/ContactForm'
 
 const teamData = [
   {
     name: "Victor Githui",
-    role: "Creative Director/ Filmmaker",
+    role: "Creative Director & Film Director",
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689595132/Emacon%20Production/WhatsApp_Image_2023-07-17_at_14.58.17_sxwtcp.jpg"
-  }
+  },
+  {
+    name: "Alex Wanjau",
+    role: "Partner & Performance Marketer",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1764690926/Emacon%20Production/DSC01529_cy8zd6.jpg"
+  },
+  {
+    name: "Brian Muchemi",
+    role: "Business Development",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1686213304/techworks/WhatsApp_Image_2023-06-08_at_10.38.15_zr1qzs.jpg"
+  },
+  {
+    name: "Francis Kiguta",
+    role: "Photographer & Filmmaker",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1764691022/Emacon%20Production/DSC04165_2_km19kl.jpg"
+  },
+  {
+    name: "Tamara Mungai",
+    role: "Social Media Strategist",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1764690432/Emacon%20Production/DSCF0227_xbociu.jpg"
+  },
 ]
 
 const About = () => {
@@ -48,8 +69,8 @@ const About = () => {
               We build bridges between <span className='word_emphasy_v1' >companies and customers</span>
           </h1>
           <p>
-              With end-to-end full-service digital capabilities, we're on a mission to connect your cause 
-              with the individuals who will care about it the most.
+            Emacon Production is a performance-driven creative agency committed to shaping how brands communicate, connect, and grow in the digital age. Based in Nairobi and inspired by Africa’s rich visual identity, we blend strategic thinking, powerful storytelling, and high-end production to create content that doesn’t just look exceptional, it delivers measurable impact. <br/><br/>
+            With end-to-end full-service digital capabilities, we’re on a mission to connect your cause with the individuals who will care about it the most. Every project we handle is intentional guided by insight, refined by strategy, and brought to life through world-class photography, videography, digital campaigns, and creative innovation.
           </p>
       </div>
 
@@ -57,8 +78,7 @@ const About = () => {
       <div className='aboutpage_sectiontwo'>
         <h1>Our <span className='word_emphasy_v1' >Team</span></h1>
         <p>
-          To be the business our customers want us to be, it takes an eclectic group of passionate operators. Meet our team of 
-          creators and world-class problem solvers.  
+          From brand stories and lifestyle campaigns to social media performance, marketing strategy, and web experiences, we create work that elevates brands and speaks directly to their audiences. Our diverse team of filmmakers, photographers, strategists, designers, and marketers share a commitment to excellence, collaboration, and meaningful storytelling.
         </p>
         <div className='teamcards_wrapper'>
           {
@@ -74,6 +94,8 @@ const About = () => {
           }
         </div>
       </div>
+
+      <ContactForm />
 
       {/* Footer */}
       <Footer />
