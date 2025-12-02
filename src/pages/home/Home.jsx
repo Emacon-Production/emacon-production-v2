@@ -69,8 +69,7 @@ const Home = () => {
         <div className='home_hero_wrapper'>
             <div className='home_hero_sectionone'>
                 <h1>
-                    We Are a <span className='word_emphasy_v1' >Creative</span> <br/>
-                    Digital Agency
+                    We are a <span className='word_emphasy_v1' >Creative Performance</span> Digital Agency
                 </h1>
             </div>
 
@@ -89,7 +88,7 @@ const Home = () => {
         <div className='home_sectiontwo_wrapper'>
             <div className='home_sctiontwo_showreel'>
                 <iframe 
-                    src="https://www.youtube.com/embed/Vy9OvZEXcZg" 
+                    src="https://www.youtube.com/embed/mPayg3SPZhw?si=upD-QbatMGapAoB4" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
