@@ -3,7 +3,7 @@ import './about.css'
 import Navigation from '../../components/navigation/Navigation'
 import Footer from '../../components/footer/Footer'
 import { Helmet } from 'react-helmet-async'
-import ContactForm from '../../components/contact-form/ContactForm'
+// import ContactForm from '../../components/contact-form/ContactForm'
 
 const teamData = [
   {
