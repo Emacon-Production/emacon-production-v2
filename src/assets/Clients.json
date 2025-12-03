@@ -1,14 +1,5 @@
 [
     {
-        "clientName": "Red Bull",
-        "projectName": "Red Bull Dance Your Style Kenya",
-        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/redbullcom-logo_2_fa18yq.png",
-        "projectDescription": "We partnered with Red Bull Kenya to capture the vibrant energy and unmatched creativity of Red Bull Dance Your Style, one of the country’s most electrifying urban dance competitions. Through dynamic cinematography, creative content prieces and immersive event coverage, we highlighted the talent, individuality, and cultural expression of dancers from across the region. Our visuals celebrate the spirit of the Kenyan dance community raw, authentic, and unapologetically expressive while showcasing Red Bull’s commitment to empowering local artistry and street culture.",
-        "projectLink": "https://www.instagram.com/p/DGV6hNLo0Hf/",
-        "projectType": "Video Production",
-        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764750708/Emacon%20Production/Screenshot_2025-12-03_at_11.22.02_nhzp4w.png"
-    },
-    {
         "clientName": "The Mairura Foundation",
         "projectName": "Operation Kisii, Medical Mission Impact Documentary",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1764746163/Emacon%20Production/The_Mairura_Family_Foundation_Logo_PNG.png_kis2f8.avif",
@@ -16,6 +7,15 @@
         "projectLink": "https://youtu.be/mPayg3SPZhw",
         "projectType": "Video Production",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764746507/Emacon%20Production/maxresdefault_hbf3zr.jpg"
+    },
+    {
+        "clientName": "Red Bull",
+        "projectName": "Red Bull Dance Your Style Kenya",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/redbullcom-logo_2_fa18yq.png",
+        "projectDescription": "We partnered with Red Bull Kenya to capture the vibrant energy and unmatched creativity of Red Bull Dance Your Style, one of the country’s most electrifying urban dance competitions. Through dynamic cinematography, creative content prieces and immersive event coverage, we highlighted the talent, individuality, and cultural expression of dancers from across the region. Our visuals celebrate the spirit of the Kenyan dance community raw, authentic, and unapologetically expressive while showcasing Red Bull’s commitment to empowering local artistry and street culture.",
+        "projectLink": "https://www.instagram.com/p/DGV6hNLo0Hf/",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764750708/Emacon%20Production/Screenshot_2025-12-03_at_11.22.02_nhzp4w.png"
     },
     {
         "clientName": "Ford Foundation",
@@ -36,6 +36,24 @@
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764744622/Emacon%20Production/TFS-122_auzsak.jpg"
     },
     {
+        "clientName": "Ukombozi Social",
+        "projectName": "An immersion into the sand art of Île de Gorée",
+        "logo": "",
+        "projectDescription": "We captured the inaugural UKO gathering by Ukombozi Social, a club created for liberated minds and meaningful human connection. The event offered a deeply immersive experience into the sand art of Île de Gorée a celebration of heritage expressed through culture, creativity, music, and intentional community. Our visual coverage reflects the event’s soulful atmosphere, highlighting the seamless fusion of art and identity while documenting the powerful sense of belonging and expression that defines UKO.",
+        "projectLink": "https://www.instagram.com/p/DM-BTQ_MkKO/",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764765811/Emacon%20Production/Screenshot_2025-12-03_at_15.40.48_ngemqc.png"
+    },
+    {
+        "clientName": "Blinky bill",
+        "projectName": " Kashata 2nd Edition",
+        "logo": "",
+        "projectDescription": "We documented the second edition of Kashata, a high-energy music concert celebrating Kenya’s rising talent and diverse musical culture. Through immersive cinematography and dynamic visual storytelling, we captured the electric atmosphere from powerful live performances and crowd energy to the creative expression that defines Kashata’s growing influence. Our coverage highlights the event’s commitment to elevating local artists and creating unforgettable experiences for fans, cementing Kashata as a must-attend moment in Kenya’s music scene.",
+        "projectLink": "https://www.instagram.com/p/DRTzI0ZiOsu/",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764764826/Emacon%20Production/Screenshot_2025-12-03_at_15.26.25_tuscwn.png"
+    },
+    {
         "clientName": "Africa Trade Expo",
         "projectName": "A premier event designed to connect the world to Africa",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1764745231/Emacon%20Production/logo.png_p1jdip.webp",
@@ -46,9 +64,18 @@
     },
     {
         "clientName": "Lehem Interiors",
+        "projectName": "Luxury Furniture Showroom",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1717598792/Emacon%20Production/Screenshot_2024-06-05_at_17.46.09_bmjkqn.png",
+        "projectDescription": "We partnered with Lehem Interiors to create a cinematic showcase of a meticulously designed luxury space. The film highlights their refined approach to interior design from curated furniture pieces and material choices to lighting, textures, and spatial flow. Through elegant, intentional cinematography, we captured the atmosphere, craftsmanship, and design philosophy behind the space, presenting it as a true reflection of Lehem Interiors’ commitment to modern luxury and timeless artistry.",
+        "projectLink": "https://www.youtube.com/watch?v=twaEECm1Yhc",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764767041/Emacon%20Production/Screenshot_2025-12-03_at_16.03.34_hhig63.png"
+    },
+    {
+        "clientName": "Lehem Interiors",
         "projectName": "Renovation Home Tour || The Reveal",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1717598792/Emacon%20Production/Screenshot_2024-06-05_at_17.46.09_bmjkqn.png",
-        "projectDescription": "Lehem Interiors offer services in Design Only, Design Turnkey, Design & Build, Furnishing & Fit Outs, Landscape Design and Renovation. concepts(visions), detail drawings, furnishing and styling.",
+        "projectDescription": "We partnered with Lehem Interiors to create a cinematic showcase of a meticulously designed luxury space. The film highlights their refined approach to interior design from curated furniture pieces and material choices to lighting, textures, and spatial flow. Through elegant, intentional cinematography, we captured the atmosphere, craftsmanship, and design philosophy behind the space, presenting it as a true reflection of Lehem Interiors’ commitment to modern luxury and timeless artistry.",
         "projectLink": "https://www.youtube.com/watch?v=FYgedW9YCu4",
         "projectType": "Video Production",
         "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1717598914/Emacon%20Production/Screenshot_2024-06-05_at_17.48.20_cx3iug.png"
