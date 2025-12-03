@@ -14,7 +14,7 @@ const teamData = [
   {
     name: "Alex Wanjau",
     role: "Partner & Performance Marketer",
-    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1764690926/Emacon%20Production/DSC01529_cy8zd6.jpg"
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1764769488/Emacon%20Production/Gemini_Generated_Image_zeg7b0zeg7b0zeg7_chl0ws.png"
   },
   {
     name: "Brian Muchemi",
@@ -25,6 +25,11 @@ const teamData = [
     name: "Francis Kiguta",
     role: "Photographer & Filmmaker",
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1764691022/Emacon%20Production/DSC04165_2_km19kl.jpg"
+  },
+  {
+    name: "Craig Mumo",
+    role: "Filmmaker",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1764765137/Emacon%20Production/Screenshot_2025-12-03_at_15.31.59_lde03v.png"
   },
   {
     name: "Tamara Mungai",
