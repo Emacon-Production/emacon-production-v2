@@ -1,5 +1,50 @@
 [
     {
+        "clientName": "Red Bull",
+        "projectName": "Red Bull Dance Your Style Kenya",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1686496658/Emacon%20Production/redbullcom-logo_2_fa18yq.png",
+        "projectDescription": "We partnered with Red Bull Kenya to capture the vibrant energy and unmatched creativity of Red Bull Dance Your Style, one of the country’s most electrifying urban dance competitions. Through dynamic cinematography, creative content prieces and immersive event coverage, we highlighted the talent, individuality, and cultural expression of dancers from across the region. Our visuals celebrate the spirit of the Kenyan dance community raw, authentic, and unapologetically expressive while showcasing Red Bull’s commitment to empowering local artistry and street culture.",
+        "projectLink": "https://www.instagram.com/p/DGV6hNLo0Hf/",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764750708/Emacon%20Production/Screenshot_2025-12-03_at_11.22.02_nhzp4w.png"
+    },
+    {
+        "clientName": "The Mairura Foundation",
+        "projectName": "Operation Kisii, Medical Mission Impact Documentary",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1764746163/Emacon%20Production/The_Mairura_Family_Foundation_Logo_PNG.png_kis2f8.avif",
+        "projectDescription": "We produced an impact documentary for The Mairura Foundation, highlighting their first annual medical mission at the Kisii Teaching and Referral Hospital. Over four days, a dedicated team of 13 medical professionals from Dallas, Texas transformed lives through specialized orthopedic and non-operative spine care. Our documentary showcases the profound human stories behind these numbers, capturing the compassion, expertise, and life-changing outcomes made possible through this mission.",
+        "projectLink": "https://youtu.be/mPayg3SPZhw",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764746507/Emacon%20Production/maxresdefault_hbf3zr.jpg"
+    },
+    {
+        "clientName": "Ford Foundation",
+        "projectName": "Ford Foundation East Africa Office Documentary",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1764743641/Emacon%20Production/Ford-Foundation_xmk87f.svg",
+        "projectDescription": "We partnered with the Ford Foundation East Africa to produce a documentary showcasing the story behind their newly designed regional office in Nairobi. Through thoughtful interviews, guided tours, and detailed visual storytelling, the film highlights the architectural vision, cultural influences, and human-centered design choices that shape the space. The documentary captures not only the aesthetics of the environment but also the values and mission that drive the Foundation’s work across the region.",
+        "projectLink": "https://www.youtube.com/watch?v=FYgedW9YCu4",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764744302/Emacon%20Production/TFS-129_asjqgy.jpg"
+    },
+    {
+        "clientName": "Ford Foundation",
+        "projectName": "Ford Foundation East Africa — Interior & Architectural Photography",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1764743641/Emacon%20Production/Ford-Foundation_xmk87f.svg",
+        "projectDescription": "We captured a series of refined interior and architectural photographs for the Ford Foundation East Africa’s newly designed regional office. Our focus was to showcase the space’s thoughtful design, cultural influence, and functional elegance through clean, intentional imagery. Each photograph highlights the Foundation’s commitment to creating an environment that reflects openness, community, and purpose — bringing the beauty of the space to life through a modern visual narrative.",
+        "projectLink": "https://tafarimedia.pic-time.com/-fordfoundation/gallery?inviteptoken2=AAAAAB8AAACdaiunntZk-rsCo0ZWq5awEPee",
+        "projectType": "Photography",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764744622/Emacon%20Production/TFS-122_auzsak.jpg"
+    },
+    {
+        "clientName": "Africa Trade Expo",
+        "projectName": "A premier event designed to connect the world to Africa",
+        "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1764745231/Emacon%20Production/logo.png_p1jdip.webp",
+        "projectDescription": "We partnered with Africa Trade Expo 2025 to produce a high-energy promotional video for East Africa’s most anticipated global trade event. The film captures the Expo’s vision as a dynamic platform where international businesses, industry leaders, and innovators converge to engage with Africa’s rapidly growing markets. Through compelling visuals, and powerful messaging, the promo showcases the scale, opportunity, and impact of the event positioning Africa Trade Expo 2025 as a must attend experience for global trade and investment.",
+        "projectLink": "https://www.youtube.com/watch?v=4GyaPGCnLg0",
+        "projectType": "Video Production",
+        "thumbnail": "https://res.cloudinary.com/emacon-production/image/upload/v1764745774/Emacon%20Production/Screenshot_2025-12-03_at_10.09.11_jupyi4.png"
+    },
+    {
         "clientName": "Lehem Interiors",
         "projectName": "Renovation Home Tour || The Reveal",
         "logo": "https://res.cloudinary.com/emacon-production/image/upload/v1717598792/Emacon%20Production/Screenshot_2024-06-05_at_17.46.09_bmjkqn.png",

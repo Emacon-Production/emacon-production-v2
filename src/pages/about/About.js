@@ -95,7 +95,7 @@ const About = () => {
         </div>
       </div>
 
-      <ContactForm />
+      {/* <ContactForm /> */}
 
       {/* Footer */}
       <Footer />
