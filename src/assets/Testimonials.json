@@ -1,16 +1,17 @@
 [
     {
+        "company": "Tribe",
+        "name": "Bill Asura",
+        "role": "Digital and Communications Lead",
+        "review": "I’ve worked with Emacon on multiple projects and they always deliver! Super easy team to work with, great communication and the final product always exceeds expectations.Highly recommend!",
+        "headshot": "https://res.cloudinary.com/emacon-production/image/upload/v1764840194/Emacon%20Production/Screenshot_2025-12-04_at_12.22.46_v7mxka.png"
+    },
+    {
         "company": "The Lai Group Collection",
         "name": "Jimmy Ngatia",
         "role": "Director & Founder",
         "review": "Emacon production has proven to be instrumental for our business, Lai Group Kenya, significantly enhancing the quality of our photos and videos. This improvement has not only expanded our audience but also bolstered our online presence. I highly recommend Emacon",
-        "headshot": "https://res.cloudinary.com/emacon-production/image/upload/v1692348139/Emacon%20Production/Shall_We_Gather.00_00_10_02.Still001_jyk6wv.jpg"
-    },{
-        "company": "Following Life Music",
-        "name": "Steve Osoro",
-        "role": "Chairman",
-        "review": "Emacon Production shot two acapella videos for us and they're the most skilled and professional media company in Kenya. Everything was top notch quality from the creativity of the final products, video quality, time-keeping and good communication throughout the project.",
-        "headshot": "https://res.cloudinary.com/emacon-production/image/upload/v1692348139/Emacon%20Production/Shall_We_Gather.00_00_10_02.Still001_jyk6wv.jpg"
+        "headshot": "https://res.cloudinary.com/emacon-production/image/upload/v1764839673/Emacon%20Production/IMG_6468_m7xtdy.jpg"
     },
     {
         "company": "EireKenya Housing Co-op. Ltd",
@@ -18,6 +19,13 @@
         "role": "Admin",
         "review": "Emacon Productions offered comprehensive media coverage services for our Groundbreaking event, displaying an exemplary level of professionalism. Their flexibility and attentive approach to our requirements were complemented by the delivery of high-quality services, and we definitely got our money's worth. The team's exceptional responsiveness and unwavering professionalism contributed to a smooth and seamless event and their proactive efforts went beyond expectations in ensuring the success of our event. I wholeheartedly endorse their promptness, superior quality, and professionalism.",
         "headshot": "https://res.cloudinary.com/emacon-production/image/upload/v1692268174/Emacon%20Production/file_nogniv.jpg"
+    },
+    {
+        "company": "Following Life Music",
+        "name": "Steve Osoro",
+        "role": "Chairman",
+        "review": "Emacon Production shot two acapella videos for us and they're the most skilled and professional media company in Kenya. Everything was top notch quality from the creativity of the final products, video quality, time-keeping and good communication throughout the project.",
+        "headshot": "https://res.cloudinary.com/emacon-production/image/upload/v1692348139/Emacon%20Production/Shall_We_Gather.00_00_10_02.Still001_jyk6wv.jpg"
     },
     {
         "company": "The Wheel Spin Podcast",

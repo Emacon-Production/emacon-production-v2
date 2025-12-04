@@ -3,6 +3,8 @@ import './about.css'
 import Navigation from '../../components/navigation/Navigation'
 import Footer from '../../components/footer/Footer'
 import { Helmet } from 'react-helmet-async'
+import TestimonialCard from '../../components/testimonial-card/TestimonialCard'
+import testimonials from '../../assets/Testimonials.json'
 // import ContactForm from '../../components/contact-form/ContactForm'
 
 const teamData = [
@@ -99,6 +101,28 @@ const About = () => {
           }
         </div>
       </div>
+
+      {/* Reviews/ Testimonials */}
+              <div className='testimonials_wrapper'>
+                  <div className='testimonials_sectionOne'>
+                      <div>
+                          <h3>TESTIMONIALS</h3>
+                          <h1>
+                              What People <span className='word_emphasy_v1'>Say</span> About Us
+                          </h1>
+                      </div>
+                  </div>
+                  <div className='testimonials_sectionTwo'>
+                      {
+                          testimonials.map((testimonial, index) => (
+                              <React.Fragment>
+                                  {
+                                      index < 4 ? <TestimonialCard data={testimonial} key={index} /> : null
+                                  }
+                              </React.Fragment>) )
+                      }
+                  </div>
+              </div>
 
       {/* <ContactForm /> */}
 
