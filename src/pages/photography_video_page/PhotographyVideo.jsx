@@ -26,7 +26,7 @@ const worksMenu = [
 //Project Types
 const projectTypes = [
   {
-    name: "Corporate Films",
+    name: "Corporate Films & Documentatries",
     description: "Tell your company’s story with a brand promotional video. Convert your customers by implementing these style videos on your website."
   },
   {

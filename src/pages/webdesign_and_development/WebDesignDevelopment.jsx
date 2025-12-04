@@ -20,11 +20,6 @@ const services = [
         name: "Web App Develoment",
         description: "We are able to design online web solutions specifically for you by utilizing our internal specialists, adaptable infrastructure, and years of experience.",
         thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689841456/Emacon%20Production/luke-chesser-JKUTrJ4vK00-unsplash_ezrxqa.jpg"
-    },
-    {
-        name: "Mobile App Develoment",
-        description: "Is it an e-commerce? Or a busniness? Or anything else? If you dream it we can code it! Our apps are well designed, fluid and have an amazing user experience. ",
-        thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1689841455/Emacon%20Production/balazs-ketyi-b9rPuUQ_YSs-unsplash_prbj0a.jpg"
     }
 ]
 
@@ -134,7 +129,7 @@ const WebDesignDevelopment = () => {
             <div className='webdesigndevelopment_hero_wrapper'>
                 <h1>Developing your idea into <span className='word_emphasy_v1' >Reality</span></h1>
                 <p>
-                    We provide custom web and software solutions for any industry. Creating high-value websites, software and technology for your business.
+                    We design and build custom websites and web applications crafted around your business goals. Our solutions blend high-end design, seamless functionality, and strong technical foundations to create digital experiences that elevate your brand and drive real business value.
                 </p>
                 <Button Placeholder="Get in touch" type="route" targetLink="/contact" />
             </div>
@@ -148,7 +143,7 @@ const WebDesignDevelopment = () => {
                 <div className='webdesigndevelopment_mission'>
                     <h4><span className='word_emphasy_v1' >Our Mission</span></h4>
                     <p>
-                        To enhance the value of your company, we mix innovation, superior software development, and top-notch customer service. Our objective is to provide 
+                        To enhance the value of your company, we mix innovation, superior web development, and top-notch customer service. Our objective is to provide 
                         results, save you time and money, and establish a long-lasting partnership that is advantageous to both of us.
                     </p>
                 </div>
@@ -173,7 +168,7 @@ const WebDesignDevelopment = () => {
         <div className='digitalmarketing_contactform'>
           <div className='digitalcontactform_sectionone'>
             <h1>
-              BOOK OUR SOFTWARE SOLUTIONS SERVICES <span className='word_emphasy_v1' >TODAY!</span>
+              BOOK OUR WEB SOLUTIONS SERVICES <span className='word_emphasy_v1' >TODAY!</span>
             </h1>
             <p>
               Please fill out the form and we will get back to you shortly.
@@ -278,7 +273,7 @@ const WebDesignDevelopment = () => {
         {/* Footer */}
         <Footer/>
 
-        {/* Toast Container */}
+        
         <ToastContainer />
     </div>
   )

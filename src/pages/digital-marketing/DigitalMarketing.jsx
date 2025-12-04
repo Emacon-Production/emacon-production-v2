@@ -24,6 +24,11 @@ const digitalServicesData = [
     name: "Social Media Marketing",
     description: "We handle all of your social media requirements, including design and maintenance, and oversee 360-degree campaign implementation. We also find the top influencers to assist your business gain even more local attention.",
     thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1688998192/Emacon%20Production/alexander-shatov-mr4JG4SYOF8-unsplash_qkladv.jpg"
+  },
+  {
+    name: " Performance Marketing",
+    description: "Our Performance Marketing service drives measurable growth through targeted digital campaigns, data-led optimization, and compelling creatives. We ensure every shilling spent works harder — delivering real results, stronger visibility, and consistent ROI for your brand",
+    thumbnail: "https://res.cloudinary.com/emacon-production/image/upload/v1764683451/Emacon%20Production/Social_Media_Strategy_Performance_Marketing_wtoicd.jpg"
   }
 ]
 
@@ -129,11 +134,11 @@ const DigitalMarketing = () => {
         {/* Hero Section */}
         <div className='digitalmarketing_sectionone'>
           <h1>
-            Helping you move onwards <span className='word_emphasy_v1' >Digitally</span>
+            Where <span className='word_emphasy_v1' >Creative Strategy</span> meets <span className='word_emphasy_v1' >Measurable Results.</span>
           </h1>
           <div className='digitalmarketing_sectionone_desc'>
             <p>
-              We support the validation of your service and product's digital presence in the relevant target market. We oversee the full implementation of the digital strategy to position programs highly in the market.
+              We help you validate your product or service within the correct target market and manage the full execution of your digital and performance marketing strategy. From positioning to optimization, we ensure your programs gain meaningful visibility and deliver measurable results.
             </p>
             <Button Placeholder="Get Started" type="route" targetLink="/contact" />
           </div>
@@ -162,10 +167,9 @@ const DigitalMarketing = () => {
             <div>
               <h2><span className='word_emphasy_v1' >Our Approach </span> to Digital Marketing</h2>
               <p>
-                Our digital marketing services are driven not only by passion, but also a driving desire to deliver 
-                exceptional sales conversions and ROI for our clients. We invest a substantial amount of time 
-                understanding our clients’ benchmarks of success and KPI’s and craft smart digital strategies to gain 
-                maximum market share in the digital universe.
+                At the core of our digital marketing and performance services is a commitment to delivering real business value not vanity metrics. We combine strategic insight, data intelligence, and high-performing creative to engineer campaigns that deliver measurable growth, stronger engagement, and sustainable ROI. <br/> <br/>
+                We begin by deeply understanding your brand’s purpose, customer journey, and KPIs, allowing us to design tailored strategies that speak to your audience with precision. Every decision—whether in media buying, targeting, content creation, or optimization is guided by data and aligned to your revenue goals. <br/><br/>
+                From conversion-focused ad campaigns to full-funnel performance systems, we ensure your digital presence does more than exist; it competes, converts, and consistently captures market share. Our goal isn’t just to run campaigns—it’s to amplify your brand’s impact and deliver results you can see, measure, and scale.
               </p>
             </div>
           </div> 
